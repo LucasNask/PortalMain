@@ -28,5 +28,11 @@ public class PessoasBusiness {
 		
 	}
 	
+	public Pessoas retrievePessoasByLogin(String login) {
+		
+		return this.pessoaRep.findByLogin(login);
+		
+	}
+	
 	
 }
