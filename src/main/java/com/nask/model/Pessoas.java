@@ -11,7 +11,7 @@ import javax.persistence.Table;
 public class Pessoas {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+//	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	
 	private String nome;
@@ -21,6 +21,9 @@ public class Pessoas {
 	private String email;
 	
 	private String login;
+	
+	private String senha;
+	
 	
 	public String getLogin() {
 		return login;
@@ -38,7 +41,6 @@ public class Pessoas {
 		this.senha = senha;
 	}
 
-	private String senha;
 
 	public Integer getId() {
 		return id;
