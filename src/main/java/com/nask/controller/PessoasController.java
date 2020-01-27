@@ -22,6 +22,7 @@ import io.swagger.annotations.ApiOperation;
 public class PessoasController {
 	
 	public PessoasBusiness pessoasBusiness;
+	public PessoasInterface pessoasInteface;
 	
 	
 	@Autowired
